@@ -38,7 +38,7 @@ pip install -r requirements.txt
   ```
  ### how to use
   - The user can now login/register in GUI
-  ![Login GUI](https://raw.githubusercontent.com/magonmonkey/SkyscraperMeeting/master/pics/Login.png)
+  ![Login GUI](pics/Login.png?raw=True)
   ![Account collision](https://raw.githubusercontent.com/magonmonkey/SkyscraperMeeting/master/pics/LoginFailed(registered account).png)
   - There are two option you can choose in setting
     - **mood_detection** is for face detection (we are still working on the mood detection part), it use opencv to detect your face and label it
