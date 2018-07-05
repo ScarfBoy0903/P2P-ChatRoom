@@ -38,8 +38,14 @@ pip install -r requirements.txt
   ```
  ### how to use
   - The user can now login/register in GUI
+  ![Login GUI](https://raw.githubusercontent.com/magonmonkey/SkyscraperMeeting/master/pics/Login.png)
+  ![Account collision](https://raw.githubusercontent.com/magonmonkey/SkyscraperMeeting/master/pics/LoginFailed(registered account).png)
   - There are two option you can choose in setting
     - **mood_detection** is for face detection (we are still working on the mood detection part), it use opencv to detect your face and label it
     - **security_transmission(RC4)** is for transferring your images after RC4 encoding. Therefore, sniffers can't know what exactly you're transmitting.
     - Both end user should have the same **key.txt** in order to use **security_transmission(RC4)**
+     ![Setting GUI](https://raw.githubusercontent.com/magonmonkey/SkyscraperMeeting/master/pics/Setting.png)
   - Once every thing is done, press "**Connect**" at the lower left and wait for another user to connect
+   ![main GUI](https://raw.githubusercontent.com/magonmonkey/SkyscraperMeeting/master/pics/main.png)
+   ![connection failed](https://raw.githubusercontent.com/magonmonkey/SkyscraperMeeting/master/pics/ConnectionFailed(not login yet).png)
+
