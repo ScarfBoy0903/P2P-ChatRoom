@@ -1,5 +1,5 @@
  # Objectives
- The objective of the project is to build a desktop app that could connect users to one another. Users can see each others from their front camera, also they could type in words with each other.
+ The objective of the project is to build a desktop app that could connect users to one another. Users can see each others from their front camera, also they could type in words to communicate with each other.
  This project is called **skyscraper meeting** is because it can be used only in **same subnet** by far. We are still trying to acheive TCP hole punching.
  # Features
    - Kivy GUI
@@ -9,7 +9,7 @@
    - SQLite server storing salted account/password
  
  # Environment
-   - python 3.5 and above
+   - python 3.5 or above
    - Window 8/10
 
 # Python packages installation
@@ -28,7 +28,7 @@ pip install -r requirements.txt
   python P2P_server.py
   ```
   Note that these two server should be executed in different python kernel (or different command line). They have to be executed concurrently.
-  - Modify the IP address in 32 line of GUI.py
+  - Modify the IP address in line 32 of GUI.py
   ```python
   ipAddress = "192.168.*.*"
   ```
